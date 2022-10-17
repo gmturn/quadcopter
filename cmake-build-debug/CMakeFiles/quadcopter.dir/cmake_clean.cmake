@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/quadcopter.dir/PIDFunctions.cpp.o"
   "CMakeFiles/quadcopter.dir/main.cpp.o"
   "quadcopter"
   "quadcopter.pdb"

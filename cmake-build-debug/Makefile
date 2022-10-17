@@ -123,6 +123,33 @@ quadcopter/fast:
 	$(MAKE) -f CMakeFiles/quadcopter.dir/build.make CMakeFiles/quadcopter.dir/build
 .PHONY : quadcopter/fast
 
+PIDFunctions.o: PIDFunctions.cpp.o
+
+.PHONY : PIDFunctions.o
+
+# target to build an object file
+PIDFunctions.cpp.o:
+	$(MAKE) -f CMakeFiles/quadcopter.dir/build.make CMakeFiles/quadcopter.dir/PIDFunctions.cpp.o
+.PHONY : PIDFunctions.cpp.o
+
+PIDFunctions.i: PIDFunctions.cpp.i
+
+.PHONY : PIDFunctions.i
+
+# target to preprocess a source file
+PIDFunctions.cpp.i:
+	$(MAKE) -f CMakeFiles/quadcopter.dir/build.make CMakeFiles/quadcopter.dir/PIDFunctions.cpp.i
+.PHONY : PIDFunctions.cpp.i
+
+PIDFunctions.s: PIDFunctions.cpp.s
+
+.PHONY : PIDFunctions.s
+
+# target to generate assembly for a file
+PIDFunctions.cpp.s:
+	$(MAKE) -f CMakeFiles/quadcopter.dir/build.make CMakeFiles/quadcopter.dir/PIDFunctions.cpp.s
+.PHONY : PIDFunctions.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... quadcopter"
+	@echo "... PIDFunctions.o"
+	@echo "... PIDFunctions.i"
+	@echo "... PIDFunctions.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/mnt/c/Users/mclea/OneDrive/Documents/GitHub/quadcopter/PIDFunctions.cpp">
+			<Option target="quadcopter"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/mclea/OneDrive/Documents/GitHub/quadcopter/PIDFunctions.h">
+			<Option target="quadcopter"/>
+		</Unit>
 		<Unit filename="/mnt/c/Users/mclea/OneDrive/Documents/GitHub/quadcopter/main.cpp">
 			<Option target="quadcopter"/>
 		</Unit>

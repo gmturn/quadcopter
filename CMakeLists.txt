@@ -3,4 +3,4 @@ project(quadcopter)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(quadcopter main.cpp)
+add_executable(quadcopter main.cpp PIDFunctions.cpp PIDFunctions.h)
