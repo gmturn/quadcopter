@@ -44,16 +44,16 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/c/Users/mclea/OneDrive/Desktop/C++ Code/Quadcopter"
+CMAKE_SOURCE_DIR = /mnt/c/Users/mclea/OneDrive/Documents/GitHub/quadcopter
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/c/Users/mclea/OneDrive/Desktop/C++ Code/Quadcopter/cmake-build-debug"
+CMAKE_BINARY_DIR = /mnt/c/Users/mclea/OneDrive/Documents/GitHub/quadcopter/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Quadcopter.dir/all
+all: CMakeFiles/quadcopter.dir/all
 
 .PHONY : all
 
@@ -63,36 +63,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Quadcopter.dir/clean
+clean: CMakeFiles/quadcopter.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Quadcopter.dir
+# Target rules for target CMakeFiles/quadcopter.dir
 
 # All Build rule for target.
-CMakeFiles/Quadcopter.dir/all:
-	$(MAKE) -f CMakeFiles/Quadcopter.dir/build.make CMakeFiles/Quadcopter.dir/depend
-	$(MAKE) -f CMakeFiles/Quadcopter.dir/build.make CMakeFiles/Quadcopter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/mnt/c/Users/mclea/OneDrive/Desktop/C++ Code/Quadcopter/cmake-build-debug/CMakeFiles" --progress-num=1,2 "Built target Quadcopter"
-.PHONY : CMakeFiles/Quadcopter.dir/all
+CMakeFiles/quadcopter.dir/all:
+	$(MAKE) -f CMakeFiles/quadcopter.dir/build.make CMakeFiles/quadcopter.dir/depend
+	$(MAKE) -f CMakeFiles/quadcopter.dir/build.make CMakeFiles/quadcopter.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/mclea/OneDrive/Documents/GitHub/quadcopter/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target quadcopter"
+.PHONY : CMakeFiles/quadcopter.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Quadcopter.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/mclea/OneDrive/Desktop/C++ Code/Quadcopter/cmake-build-debug/CMakeFiles" 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Quadcopter.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/c/Users/mclea/OneDrive/Desktop/C++ Code/Quadcopter/cmake-build-debug/CMakeFiles" 0
-.PHONY : CMakeFiles/Quadcopter.dir/rule
+CMakeFiles/quadcopter.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/mclea/OneDrive/Documents/GitHub/quadcopter/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/quadcopter.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/mclea/OneDrive/Documents/GitHub/quadcopter/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/quadcopter.dir/rule
 
 # Convenience name for target.
-Quadcopter: CMakeFiles/Quadcopter.dir/rule
+quadcopter: CMakeFiles/quadcopter.dir/rule
 
-.PHONY : Quadcopter
+.PHONY : quadcopter
 
 # clean rule for target.
-CMakeFiles/Quadcopter.dir/clean:
-	$(MAKE) -f CMakeFiles/Quadcopter.dir/build.make CMakeFiles/Quadcopter.dir/clean
-.PHONY : CMakeFiles/Quadcopter.dir/clean
+CMakeFiles/quadcopter.dir/clean:
+	$(MAKE) -f CMakeFiles/quadcopter.dir/build.make CMakeFiles/quadcopter.dir/clean
+.PHONY : CMakeFiles/quadcopter.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

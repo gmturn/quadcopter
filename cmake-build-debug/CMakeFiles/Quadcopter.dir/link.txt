@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/Quadcopter.dir/main.cpp.o  -o Quadcopter 

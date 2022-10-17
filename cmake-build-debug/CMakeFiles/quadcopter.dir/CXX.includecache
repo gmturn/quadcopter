@@ -6,13 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/mnt/c/Users/mclea/OneDrive/Desktop/C++ Code/Quadcopter/main.cpp
+/mnt/c/Users/mclea/OneDrive/Documents/GitHub/quadcopter/main.cpp
 iostream
--
-cmath
--
-time.h
-/mnt/c/Users/mclea/OneDrive/Desktop/C++ Code/Quadcopter/time.h
-string
 -
 

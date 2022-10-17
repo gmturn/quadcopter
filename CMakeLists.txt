@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.16)
-project(Quadcopter)
+project(quadcopter)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Quadcopter main.cpp)
+add_executable(quadcopter main.cpp)

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/c/Users/mclea/OneDrive/Desktop/C++ Code/Quadcopter/main.cpp" "/mnt/c/Users/mclea/OneDrive/Desktop/C++ Code/Quadcopter/cmake-build-debug/CMakeFiles/Quadcopter.dir/main.cpp.o"
+  "/mnt/c/Users/mclea/OneDrive/Documents/GitHub/quadcopter/main.cpp" "/mnt/c/Users/mclea/OneDrive/Documents/GitHub/quadcopter/cmake-build-debug/CMakeFiles/quadcopter.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
