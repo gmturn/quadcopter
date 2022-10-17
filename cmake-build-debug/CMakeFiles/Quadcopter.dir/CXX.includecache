@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/mclea/OneDrive/Desktop/C++ Code/Quadcopter/main.cpp
+iostream
+-
+cmath
+-
+time.h
+/mnt/c/Users/mclea/OneDrive/Desktop/C++ Code/Quadcopter/time.h
+string
+-
+

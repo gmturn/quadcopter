@@ -1,0 +1,3 @@
+/mnt/c/Users/mclea/OneDrive/Desktop/C++ Code/Quadcopter/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/mclea/OneDrive/Desktop/C++ Code/Quadcopter/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/mclea/OneDrive/Desktop/C++ Code/Quadcopter/cmake-build-debug/CMakeFiles/Quadcopter.dir
