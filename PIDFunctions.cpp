@@ -4,21 +4,26 @@
 
 using namespace std;
 
-double findErrorValue(double &leftSideTilt, double &rightSideTilt) {
-    double errorValue;
-    errorValue = leftSideTilt - rightSideTilt;
-    return errorValue;
-}
 
 
 double findProportionValue(const double &Kp, double &errorVal, double &timeVal) {
     double proportionValue;
+
     proportionValue = Kp * (errorVal * timeVal);
+
     return proportionValue;
 }
 
 
-double findIntegralVal(const double &Ki, double &errorVal, double &){
+double findIntegralVal(const double &Ki, double &errorVal, double &timeVal, double previousIntegral){
+    double integralVal;
+
+
+    return integralVal;
+}
+
+
+double findDerivativeValue(const double &Kd, double &errorVal, double &timeVal) {
 
 
 
