@@ -6,11 +6,9 @@ using namespace std;
 
 
 
-double findProportionValue(const double &Kp, double &errorVal, double &timeVal) {
+double findProportionValue(const double &Kp, double &pastValue, double &currentValue) {
     double proportionValue;
-
-    proportionValue = Kp * (errorVal * timeVal);
-
+    proportionValue = currentValue - (pastValue / 2);
     return proportionValue;
 }
 
